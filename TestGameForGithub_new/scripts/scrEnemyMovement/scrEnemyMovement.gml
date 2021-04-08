@@ -22,7 +22,6 @@ function scrEnemyMovement() {
 	y += vsp;
 
 
-
 	if (!place_meeting(x, y+1, oWall)) {
 		if state !=noone {
 			sprite_index = sEnemyAirState;
@@ -62,7 +61,5 @@ function scrEnemyMovement() {
 	if (hsp!=0) {
 		image_xscale = sign(hsp);
 	}
-
-
 
 }
