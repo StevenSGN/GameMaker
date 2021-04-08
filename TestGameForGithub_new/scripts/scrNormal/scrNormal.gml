@@ -1,5 +1,6 @@
 function scrNormal() {
 	move = keyR - keyL;
+
 	hsp = move * walksp;
 	vsp += grv;
 
@@ -34,5 +35,6 @@ function scrNormal() {
 	}
 
 	y += vsp;
+
 
 }
